@@ -21,14 +21,11 @@
 					"raw": "{\r\n    \"items\":  [1, 2, [3, 4, [5, 6], 7], 8]\r\n}"
 				},
 				"url": {
-					"raw": "0.0.0.0:8080/nested_list",
+					"raw": "localholst:5000/nested_list",
 					"host": [
-						"0",
-						"0",
-						"0",
-						"0"
+						"localholst"
 					],
-					"port": "8080",
+					"port": "5000",
 					"path": [
 						"nested_list"
 					]

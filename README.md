@@ -4,3 +4,11 @@ Convert nested list to plain list, the project is based on [Flask](https://flask
 
 ## Usage
 You can use postman to import Suggestic Code.postman_collection and try it
+
+
+## Execution
+Use the docker file, move to project directory
+```
+docker build --no-cache -t suggestic-code:v1 .
+docker run --network=host  --name=SuggestCode suggestic-code:v1
+```
